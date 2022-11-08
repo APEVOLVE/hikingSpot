@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hikingSpot/static/css/main.e0d69841.css",
+    "main.js": "/hikingSpot/static/js/main.d437ac5c.js",
+    "index.html": "/hikingSpot/index.html",
+    "main.e0d69841.css.map": "/hikingSpot/static/css/main.e0d69841.css.map",
+    "main.d437ac5c.js.map": "/hikingSpot/static/js/main.d437ac5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0d69841.css",
+    "static/js/main.d437ac5c.js"
+  ]
+}
