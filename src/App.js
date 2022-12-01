@@ -36,20 +36,24 @@ const App = () => {
                 <div className='bg'>
                     <div className="searchBox">
                         <div className="inputBx">
-                            <p>Depature</p>
-                            <input type="text" placeholder="Eg: Gauteng" />
+                            <input type="text" required="required" />
+                            <span>Departure</span>
+                            <ion-icon name="location-sharp"></ion-icon>
                         </div>
                         <div className="inputBx">
-                            <p>Destination</p>
-                            <input type="text" placeholder="Eg: Limpopo" />
+                            <input type="text" required="required" />
+                            <span>Destination</span>
+                            <ion-icon name="paper-plane"></ion-icon>
                         </div>
                         <div className="inputBx">
-                            <p>Date</p>
-                            <input type="date" />
+                            <input type="text" required="required" />
+                            <span>1 Adult</span>
+                            <ion-icon name="people-sharp"></ion-icon>
                         </div>
                         <div className="inputBx">
-                            <p className="white">_</p>
-                            <input type="Submit" value="Find"/>
+                            <input type="text" required="required" />
+                            <span>Select Date</span>
+                            <ion-icon name="calendar-sharp"></ion-icon>
                         </div>
                     </div>
                 </div>
