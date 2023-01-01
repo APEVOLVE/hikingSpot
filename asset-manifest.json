@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hikingSpot/static/css/main.28b26373.css",
+    "main.css": "/hikingSpot/static/css/main.986bd872.css",
     "main.js": "/hikingSpot/static/js/main.9cc567a0.js",
     "index.html": "/hikingSpot/index.html",
-    "main.28b26373.css.map": "/hikingSpot/static/css/main.28b26373.css.map",
+    "main.986bd872.css.map": "/hikingSpot/static/css/main.986bd872.css.map",
     "main.9cc567a0.js.map": "/hikingSpot/static/js/main.9cc567a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.28b26373.css",
+    "static/css/main.986bd872.css",
     "static/js/main.9cc567a0.js"
   ]
 }
