@@ -47,7 +47,7 @@ const App = () => {
                         </div>
                         <div className="inputBx">
                             <input type="text" required="required" />
-                            <span>1 Adult</span>
+                            <span>Person(s)</span>
                             <ion-icon name="people-sharp"></ion-icon>
                         </div>
                         <div className="inputBx">
@@ -55,6 +55,70 @@ const App = () => {
                             <span>Select Date</span>
                             <ion-icon name="calendar-sharp"></ion-icon>
                         </div>
+                    </div>
+                    <div className='trips'>
+                    <div className='card fl-left'>
+                                <section className="date">
+                                    <time datetime="23th feb">
+                                        <span>23</span><span>feb</span>
+                                    </time>
+                                </section>
+                                <section className="card-cont">
+                                    
+                                </section>
+                            </div>
+
+                            <div className='card fl-left'>
+                                <section className="date">
+                                    <time datetime="23th feb">
+                                        <span>23</span><span>feb</span>
+                                    </time>
+                                </section>
+                                <section className="card-cont">
+                                    <small>dj music event</small>
+                                    <h3>live in sydney</h3>
+                                    <div className="even-date">
+                                        <i className="fa fa-calendar"></i>
+                                        <time>
+                                            <span>wednesday 28 december 2014</span>
+                                            <span>08:55pm to 12:00 am</span>
+                                        </time>
+                                    </div>
+                                    <div className="even-info">
+                                        <i className="fa fa-map-marker"></i>
+                                        <p>
+                                            nexen square for people australia, sydney
+                                        </p>
+                                    </div>
+                                    <a href="#">tickets</a>
+                                </section>
+                            </div>
+
+                            <div className='card fl-left'>
+                                <section className="date">
+                                    <time datetime="23th feb">
+                                        <span>23</span><span>feb</span>
+                                    </time>
+                                </section>
+                                <section className="card-cont">
+                                    <small>dj music event</small>
+                                    <h3>live in sydney</h3>
+                                    <div className="even-date">
+                                        <i className="fa fa-calendar"></i>
+                                        <time>
+                                            <span>wednesday 28 december 2014</span>
+                                            <span>08:55pm to 12:00 am</span>
+                                        </time>
+                                    </div>
+                                    <div className="even-info">
+                                        <i className="fa fa-map-marker"></i>
+                                        <p>
+                                            nexen square for people australia, sydney
+                                        </p>
+                                    </div>
+                                    <a href="#">tickets</a>
+                                </section>
+                            </div>
                     </div>
                 </div>
             </div>
