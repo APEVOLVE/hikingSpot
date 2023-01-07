@@ -174,157 +174,98 @@ header .logo {
   width: 0px;
 }
 
-h1
-{
-  text-transform: uppercase;
-  font-weight: 900;
-  border-left: 10px solid #fec500;
-  padding-left: 10px;
-  margin-bottom: 30px
-}
-
-.row{overflow: hidden}
-
-.card
-{
-  display: table-row;
-  width: 49%;
-  background-color: #fff;
-  color: #989898;
-  margin-bottom: 10px;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  border-radius: 4px;
-  position: relative
-}
-
-.date
-{
-  display: table-cell;
-  width: 25%;
+.trip {
   position: relative;
+  width: 320px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.08));
+}
+
+.trip .card {
+  display: flex;
+  background-color: #fff;
+  padding: 24px;
+}
+
+.trip .card.card-top {
   text-align: center;
-  border-right: 2px dashed #189AB4;
+  justify-content: space-between;
+  border-radius: 16px 16px 0 0;
 }
 
-.date time
-{
-  display: block;
+.trip .card.card-top .code {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.trip .card.card-top .city {
+  font-size: 10px;
+  color: #189AB4;
+}
+
+.flight-median {
+  position: relative;
+  height: 50px;
+  width: 100px;
+  top: 12px;
+  border-radius: 100% 100% 0 0 / 180% 180% 0 0;
+  border: 2px dashed transparent;
+  border-top-color: #c7ecee;
+}
+
+.flight-median::before {
+  content: '';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%)
+  height: 6px;
+  width: 6px;
+  top: 14px;
+  left: 5px;
+  background-color: #189AB4;
+  border-radius: 50%;
+  box-shadow: 80px 0 0 #189AB4;
 }
 
-.date time span{display: block}
-
-.date time span:first-child
-{
-  color: #2b2b2b;
-  font-weight: 600;
-  font-size: 250%
+.flight-median ion-icon {
+  position: relative;
+  top: -11px;
+  color:#189AB4;
 }
 
-.date time span:last-child
-{
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-top: -10px
+.trip .card.card-bottom {
+  flex-direction: column;
+  border-radius: 0 0 16px 16px;
 }
 
-.card-cont
-{
-  display: table-cell;
-  width: 75%;
-  font-size: 85%;
-  padding: 20px 10px 20px 10px;
+.trip .card.card-bottom .card-row {
+  display: flex;
+  justify-content: space-between;
 }
 
-.card-cont h3
-{
-  color: #3C3C3C;
-  font-size: 130%
+.trip .card.card-bottom .card-row:not(:last-child) {
+  margin-bottom: 32px;
 }
 
-.row:last-child .card:last-of-type .card-cont h3
-{
-  text-decoration: line-through
+.trip .card.card-bottom .label {
+  font-size: 10px;
+  color:#189AB4;
 }
 
-.card-cont > div
-{
-  display: table-row
+.trip .card.card-bottom .content {
+  font-size: 14px;
+  font-weight: 900;
+  color:#189AB4;
 }
 
-.card-cont .even-date i,
-.card-cont .even-info i,
-.card-cont .even-date time,
-.card-cont .even-info p
-{
-  display: table-cell
-}
-
-.card-cont .even-date i,
-.card-cont .even-info i
-{
-  padding: 5% 5% 0 0
-}
-
-.card-cont .even-info p
-{
-  padding: 30px 50px 0 0
-}
-
-.card-cont .even-date time span
-{
-  display: block
-}
-
-.card-cont a
-{
-  display: block;
-  text-decoration: none;
-  width: 80px;
-  height: 30px;
-  background-color: #D8DDE0;
-  color: #fff;
-  text-align: center;
-  line-height: 30px;
-  border-radius: 2px;
-  position: absolute;
-  right: 10px;
-  bottom: 10px
-}
-
-.row:last-child .card:first-child .card-cont a
-{
-  background-color: #037FDD
-}
-
-.row:last-child .card:last-child .card-cont a
-{
-  background-color: #F8504C
-}
-
-@media screen and (max-width: 860px)
-{
-  .card
-  {
-    display: block;
-    float: none;
-    width: 100%;
-    margin-bottom: 10px
-  }
-
-  .card + .card{margin-left: 0}
-  
-  .card-cont .even-date,
-  .card-cont .even-info
-  {
-    font-size: 75%
-  }
+.median {
+  height: 24px;
+  margin: 0 auto;
+  background-image: radial-gradient(circle, transparent 72%, #ffff 72%),
+  repeating-linear-gradient(90deg, #ffffff 0, #ffffffff 2%, #189AB4 2%, #189AB4 4%),
+  linear-gradient(#ffffff, #ffffff),
+  radial-gradient(circle, transparent 72%, #ffff 72%);
+  background-size: 24px 24px, calc(100% - 24px) 1px, calc(100% - 24px) 100%, 24px 24px;
+  background-position: -12px 0, 12px 50%, 12px 0, calc(100% + 12px) 0;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 991px) {

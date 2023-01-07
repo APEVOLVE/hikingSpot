@@ -57,68 +57,142 @@ const App = () => {
                         </div>
                     </div>
                     <div className='trips'>
-                    <div className='card fl-left'>
-                                <section className="date">
-                                    <time datetime="23th feb">
-                                        <span>23</span><span>feb</span>
-                                    </time>
-                                </section>
-                                <section className="card-cont">
-                                    
-                                </section>
+                        <div className="trip">
+                            <div className="card card-top">
+                                <div className="source">
+                                    <div className="code">JHB</div>
+                                    <div className="city">Johannesburg</div>
+                                </div>
+                                <div className='flight-median'><ion-icon name="car"></ion-icon></div>
+                                <div className="destination">
+                                    <div className="code">PLK</div>
+                                    <div className="city">Polokwane</div>
+                                </div>
                             </div>
-
-                            <div className='card fl-left'>
-                                <section className="date">
-                                    <time datetime="23th feb">
-                                        <span>23</span><span>feb</span>
-                                    </time>
-                                </section>
-                                <section className="card-cont">
-                                    <small>dj music event</small>
-                                    <h3>live in sydney</h3>
-                                    <div className="even-date">
-                                        <i className="fa fa-calendar"></i>
-                                        <time>
-                                            <span>wednesday 28 december 2014</span>
-                                            <span>08:55pm to 12:00 am</span>
-                                        </time>
+                            <div className='median'></div>
+                            <div className="card card-bottom">
+                                <div className="card-row">
+                                    <div className='card-item'>
+                                        <span className='label'>Date</span>
+                                        <p className='content'>14 Feb 2023</p>
                                     </div>
-                                    <div className="even-info">
-                                        <i className="fa fa-map-marker"></i>
-                                        <p>
-                                            nexen square for people australia, sydney
-                                        </p>
+                                    <div className='card-item'>
+                                        <span className='label'>Pickup</span>
+                                        <p className='content'>13:00-14:00</p>
                                     </div>
-                                    <a href="#">tickets</a>
-                                </section>
+                                    <div className='card-item'>
+                                        <span className='label'>Seats</span>
+                                        <p className='content'>4</p>
+                                    </div>
+                                    <div className='card-item'>
+                                        <span className='label'>Price</span>
+                                        <p className='content'>R550</p>
+                                    </div>
+                                </div>
                             </div>
-
-                            <div className='card fl-left'>
-                                <section className="date">
-                                    <time datetime="23th feb">
-                                        <span>23</span><span>feb</span>
-                                    </time>
-                                </section>
-                                <section className="card-cont">
-                                    <small>dj music event</small>
-                                    <h3>live in sydney</h3>
-                                    <div className="even-date">
-                                        <i className="fa fa-calendar"></i>
-                                        <time>
-                                            <span>wednesday 28 december 2014</span>
-                                            <span>08:55pm to 12:00 am</span>
-                                        </time>
-                                    </div>
-                                    <div className="even-info">
-                                        <i className="fa fa-map-marker"></i>
-                                        <p>
-                                            nexen square for people australia, sydney
-                                        </p>
-                                    </div>
-                                    <a href="#">tickets</a>
-                                </section>
+                        </div>
+                        <div className="trip">
+                            <div className="card card-top">
+                                <div className="source">
+                                    <div className="code">JHB</div>
+                                    <div className="city">Johannesburg</div>
+                                </div>
+                                <div className='flight-median'><ion-icon name="car"></ion-icon></div>
+                                <div className="destination">
+                                    <div className="code">PLK</div>
+                                    <div className="city">Polokwane</div>
+                                </div>
                             </div>
+                            <div className='median'></div>
+                            <div className="card card-bottom">
+                                <div className="card-row">
+                                    <div className='card-item'>
+                                        <span className='label'>Date</span>
+                                        <p className='content'>14 Feb 2023</p>
+                                    </div>
+                                    <div className='card-item'>
+                                        <span className='label'>Pickup</span>
+                                        <p className='content'>13:00-14:00</p>
+                                    </div>
+                                    <div className='card-item'>
+                                        <span className='label'>Seats</span>
+                                        <p className='content'>4</p>
+                                    </div>
+                                    <div className='card-item'>
+                                        <span className='label'>Price</span>
+                                        <p className='content'>R550</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="trip">
+                            <div className="card card-top">
+                                <div className="source">
+                                    <div className="code">JHB</div>
+                                    <div className="city">Johannesburg</div>
+                                </div>
+                                <div className='flight-median'><ion-icon name="car"></ion-icon></div>
+                                <div className="destination">
+                                    <div className="code">PLK</div>
+                                    <div className="city">Polokwane</div>
+                                </div>
+                            </div>
+                            <div className='median'></div>
+                            <div className="card card-bottom">
+                                <div className="card-row">
+                                    <div className='card-item'>
+                                        <span className='label'>Date</span>
+                                        <p className='content'>14 Feb 2023</p>
+                                    </div>
+                                    <div className='card-item'>
+                                        <span className='label'>Pickup</span>
+                                        <p className='content'>13:00-14:00</p>
+                                    </div>
+                                    <div className='card-item'>
+                                        <span className='label'>Seats</span>
+                                        <p className='content'>4</p>
+                                    </div>
+                                    <div className='card-item'>
+                                        <span className='label'>Price</span>
+                                        <p className='content'>R550</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="trip">
+                            <div className="card card-top">
+                                <div className="source">
+                                    <div className="code">JHB</div>
+                                    <div className="city">Johannesburg</div>
+                                </div>
+                                <div className='flight-median'><ion-icon name="car"></ion-icon></div>
+                                <div className="destination">
+                                    <div className="code">PLK</div>
+                                    <div className="city">Polokwane</div>
+                                </div>
+                            </div>
+                            <div className='median'></div>
+                            <div className="card card-bottom">
+                                <div className="card-row">
+                                    <div className='card-item'>
+                                        <span className='label'>Date</span>
+                                        <p className='content'>14 Feb 2023</p>
+                                    </div>
+                                    <div className='card-item'>
+                                        <span className='label'>Pickup</span>
+                                        <p className='content'>13:00-14:00</p>
+                                    </div>
+                                    <div className='card-item'>
+                                        <span className='label'>Seats</span>
+                                        <p className='content'>4</p>
+                                    </div>
+                                    <div className='card-item'>
+                                        <span className='label'>Price</span>
+                                        <p className='content'>R550</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
